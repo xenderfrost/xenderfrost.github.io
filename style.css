@@ -1,0 +1,122 @@
+/* STYLE GENERAL */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: #111;
+    color: white;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+/* MENU */
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+nav a:hover {
+    color: #00aaff;
+}
+
+
+/* SECTIONS */
+
+section {
+    padding: 80px 10%;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+/* ACCUEIL */
+
+#accueil {
+    background-color: white;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#accueil h2 {
+    font-size: 45px;
+}
+
+
+/* BOUTONS */
+
+button {
+    background-color: #111;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    margin-top: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00aaff;
+}
+
+
+/* PROJETS */
+
+.projets {
+    display: flex;
+    gap: 25px;
+}
+
+article {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+article h3 {
+    font-size: 24px;
+}
+
+
+/* CONTACT */
+
+#contact {
+    background-color: #ddd;
+    text-align: center;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
